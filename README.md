@@ -16,7 +16,24 @@ Requisitos
 1.Node
 2.Chrome
 
-#Instalando Dependências
+Instalando Dependências
+
+1.Rodar o comando
+npm install
+
+2.Para abrir o Cypress Application use o comando
+npm run cy:open
+
+3.Para rodar o Cypress Headless use o comando
+npm run cy:run
+
+4 . Para gerar o relatório Mochawesome use o comando
+
+npm run report:merge
+npm run report:mocha
+
+
+
 
 
 
