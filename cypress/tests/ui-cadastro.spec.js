@@ -7,7 +7,7 @@ describe("Validar cenário de login", () => {
         cy.visit("register");
     });
 
-    it("Clicar no botão Sign in com os campos vazios", () => {
+    it.only("Clicar no botão Sign in com os campos vazios", () => {
         cy.intercept(
             {
                 method: "POST",
